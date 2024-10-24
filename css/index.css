@@ -1,0 +1,24 @@
+header { 
+    background-color: orange;
+}
+
+a.home {
+    width: 70%;
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 200%;
+    color: white;
+}
+
+a.login {
+    width:10px;
+    font-size: 150%;
+    color: white;
+}
+
+#login {
+    width: 700px;
+}
+footer { 
+    background-color: orange;
+}
