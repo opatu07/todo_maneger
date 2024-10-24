@@ -10,7 +10,7 @@ a.home {
     color: white;
 }
 
-main {
+main h1 {
     text-align:center;
 }
 
@@ -25,4 +25,8 @@ a.login {
 }
 footer { 
     background-color: orange;
+    text-align: center;
+}
+footer small {
+    color: white;
 }
