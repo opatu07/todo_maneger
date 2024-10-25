@@ -23,6 +23,12 @@ a.login {
 #login {
     width: 700px;
 }
+
 footer { 
     background-color: orange;
+    text-align: center;
+}
+
+footer p {
+    color: white;
 }
