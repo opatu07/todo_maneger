@@ -25,10 +25,20 @@ ol {
     border-style: solid;
 }
 
+.list {
+    list-style-position: inside;
+    color: gray;
+}
+
 li {
     background-color: orange;
-    margin: 10% 10% 10% 18%;
+    margin: 10% 5% 10% 15%;
     width: 60%;
+}
+
+.list span {
+    color: white;
+    padding-left: 15px;
 }
 
 .pagination {
@@ -36,7 +46,8 @@ li {
     height: 25px;
     border-radius: 50%;
     background-color: orange;
-    margin: 0 46%;
+    color: white;
+    margin: 0 45%;
 }
 
 footer { 
