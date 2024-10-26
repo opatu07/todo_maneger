@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>ログイン画面</title>
-        <meta name="description" content="todoカンリ">
-        <link rel="stylesheet" href="../css/index.css">
-    </head>
 
-    <body>
-        <header>
-            <a class="home" href="index.html" style="text-decoration:none;">todoカンリ</a>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <title>ログイン画面</title>
+    <meta name="description" content="todoカンリ">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
 
-        <main>
-            <form action="read.html" method="post" name="login-form">
-                <h1>ログイン画面</h1>
-                <input type="text" placeholder="メールアドレス">
-                <input type="text" placeholder="パスワード">
-                <input type="submit" alt="ログイン">
-            </form>
-        </main>
+<body>
+    <header>
+        <a class="home" href="index.html" style="text-decoration:none;">todoカンリ</a>
+    </header>
 
-        <footer>
-            <p><small>&copy; 2024 todoカンリ</small></p>
-        </footer>
-    </body>
+    <main>
+        <h1 class="page-title">ログイン画面</h1>
+        <form action="read.html" method="post" name="login-form">
+            <input type="text" id="email" placeholder="メールアドレス">
+            <input type="text" id="password" placeholder="パスワード">
+            <input type="submit" id="submit" alt="ログイン">
+        </form>
+    </main>
+
+    <footer>
+        <p><small>&copy; 2024 todoカンリ</small></p>
+    </footer>
+</body>
+
 </html>
