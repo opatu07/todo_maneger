@@ -11,9 +11,42 @@ a.home {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    text-align: center;
+    width: 50%;
+    margin: 5% 25% 3% 25%;
+}
+
+.page-title {
+    text-align: center;
+}
+
+ol {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.list {
+    list-style-position: inside;
+    color: gray;
+}
+
+li {
+    background-color: orange;
+    margin: 10% 5% 10% 15%;
+    width: 60%;
+}
+
+.list span {
+    color: white;
+}
+
+.pagination {
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    margin: 0 45%;
 }
 
 a.login {
