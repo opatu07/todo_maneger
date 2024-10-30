@@ -40,6 +40,15 @@ li {
     color: white;
 }
 
+.list span a {
+    text-decoration: none;
+    color: white;
+}
+
+.list span a:hover {
+    color: #FFBF11;
+}
+
 .pagination {
     width: 30px;
     height: 25px;
