@@ -1,25 +1,76 @@
 header { 
     background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
 }
 
 a.home {
-    width: 70%;
+    width: 50%;
     display: inline-block;
     margin-left: 10%;
     font-size: 200%;
     color: white;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
 a.login {
-    width:10px;
+    width:10%;
     font-size: 150%;
     color: white;
+}
+
+a.sign-up {
+    width:20%;
+    font-size: 150%;
+    color: white;
+}
+
+main {
+    text-align: center;
+    width: 50%;
+    margin: 5% 25% 3% 25%;
+}
+
+.page-title {
+    text-align: center;
+}
+
+ol {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.list {
+    list-style-position: inside;
+    color: gray;
+}
+
+li {
+    background-color: orange;
+    margin: 10% 5% 10% 15%;
+    width: 60%;
+}
+
+.list span {
+    color: white;
+}
+
+.list span a {
+    text-decoration: none;
+    color: white;
+}
+
+.list span a:hover {
+    color: #FFBF11;
+}
+
+.pagination {
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    margin: 0 45%;
 }
 
 footer { 
