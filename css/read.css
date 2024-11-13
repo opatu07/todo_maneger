@@ -1,12 +1,27 @@
 header { 
     background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
 }
 
 a.home {
-    width: 70%;
+    width: 50%;
     display: inline-block;
     margin-left: 10%;
     font-size: 200%;
+    color: white;
+}
+
+a.create {
+    width:15%;
+    font-size: 150%;
+    color: white;
+}
+
+a.logout {
+    width:10%;
+    font-size: 150%;
     color: white;
 }
 
@@ -39,6 +54,14 @@ li {
 .list span {
     color: white;
     padding-left: 15px;
+}
+
+a.update {
+    color: white;
+}
+
+a.delete {
+    color: white;
 }
 
 .pagination {
